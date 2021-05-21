@@ -1,0 +1,30 @@
+{
+  "name": "hode-core",
+  "version": "1.0.0",
+  "description": "HODE Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDeFi-Network/hode-core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iDeFi-Network/hode-core/issues"
+  },
+  "homepage": "https://github.com/iDeFi-Network/hode-core#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.2.0",
+    "hardhat": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.2",
+    "truffle-flattener": "^1.5.0"
+  }
+}
